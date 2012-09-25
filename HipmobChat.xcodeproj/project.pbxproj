@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1F5A3E916118C20000E9A69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F5A3E816118C20000E9A69 /* UIKit.framework */; };
+		B1F5A3EB16118C20000E9A69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F5A3EA16118C20000E9A69 /* Foundation.framework */; };
+		B1F5A3ED16118C20000E9A69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F5A3EC16118C20000E9A69 /* CoreGraphics.framework */; };
+		B1F5A3F316118C20000E9A69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1F5A3F116118C20000E9A69 /* InfoPlist.strings */; };
+		B1F5A3F516118C20000E9A69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5A3F416118C20000E9A69 /* main.m */; };
+		B1F5A3F916118C20000E9A69 /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F5A3F816118C20000E9A69 /* TestAppDelegate.m */; };
+		B1F5A3FB16118C21000E9A69 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F5A3FA16118C21000E9A69 /* Default.png */; };
+		B1F5A3FD16118C21000E9A69 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F5A3FC16118C21000E9A69 /* Default@2x.png */; };
+		B1F5A3FF16118C21000E9A69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F5A3FE16118C21000E9A69 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1F5A3E416118C20000E9A69 /* HipmobChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HipmobChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F5A3E816118C20000E9A69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1F5A3EA16118C20000E9A69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1F5A3EC16118C20000E9A69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1F5A3F016118C20000E9A69 /* HipmobChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HipmobChat-Info.plist"; sourceTree = "<group>"; };
+		B1F5A3F216118C20000E9A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1F5A3F416118C20000E9A69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1F5A3F616118C20000E9A69 /* HipmobChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HipmobChat-Prefix.pch"; sourceTree = "<group>"; };
+		B1F5A3F716118C20000E9A69 /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		B1F5A3F816118C20000E9A69 /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		B1F5A3FA16118C21000E9A69 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B1F5A3FC16118C21000E9A69 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B1F5A3FE16118C21000E9A69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1F5A3E116118C20000E9A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F5A3E916118C20000E9A69 /* UIKit.framework in Frameworks */,
+				B1F5A3EB16118C20000E9A69 /* Foundation.framework in Frameworks */,
+				B1F5A3ED16118C20000E9A69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1F5A3D916118C20000E9A69 = {
+			isa = PBXGroup;
+			children = (
+				B1F5A3EE16118C20000E9A69 /* HipmobChat */,
+				B1F5A3E716118C20000E9A69 /* Frameworks */,
+				B1F5A3E516118C20000E9A69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F5A3E516118C20000E9A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F5A3E416118C20000E9A69 /* HipmobChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F5A3E716118C20000E9A69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1F5A3E816118C20000E9A69 /* UIKit.framework */,
+				B1F5A3EA16118C20000E9A69 /* Foundation.framework */,
+				B1F5A3EC16118C20000E9A69 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1F5A3EE16118C20000E9A69 /* HipmobChat */ = {
+			isa = PBXGroup;
+			children = (
+				B1F5A3F716118C20000E9A69 /* TestAppDelegate.h */,
+				B1F5A3F816118C20000E9A69 /* TestAppDelegate.m */,
+				B1F5A3EF16118C20000E9A69 /* Supporting Files */,
+			);
+			path = HipmobChat;
+			sourceTree = "<group>";
+		};
+		B1F5A3EF16118C20000E9A69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1F5A3F016118C20000E9A69 /* HipmobChat-Info.plist */,
+				B1F5A3F116118C20000E9A69 /* InfoPlist.strings */,
+				B1F5A3F416118C20000E9A69 /* main.m */,
+				B1F5A3F616118C20000E9A69 /* HipmobChat-Prefix.pch */,
+				B1F5A3FA16118C21000E9A69 /* Default.png */,
+				B1F5A3FC16118C21000E9A69 /* Default@2x.png */,
+				B1F5A3FE16118C21000E9A69 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1F5A3E316118C20000E9A69 /* HipmobChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F5A40216118C21000E9A69 /* Build configuration list for PBXNativeTarget "HipmobChat" */;
+			buildPhases = (
+				B1F5A3E016118C20000E9A69 /* Sources */,
+				B1F5A3E116118C20000E9A69 /* Frameworks */,
+				B1F5A3E216118C20000E9A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HipmobChat;
+			productName = HipmobChat;
+			productReference = B1F5A3E416118C20000E9A69 /* HipmobChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1F5A3DB16118C20000E9A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Test;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Orthogonal Labs, Inc.";
+			};
+			buildConfigurationList = B1F5A3DE16118C20000E9A69 /* Build configuration list for PBXProject "HipmobChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1F5A3D916118C20000E9A69;
+			productRefGroup = B1F5A3E516118C20000E9A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1F5A3E316118C20000E9A69 /* HipmobChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F5A3E216118C20000E9A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F5A3F316118C20000E9A69 /* InfoPlist.strings in Resources */,
+				B1F5A3FB16118C21000E9A69 /* Default.png in Resources */,
+				B1F5A3FD16118C21000E9A69 /* Default@2x.png in Resources */,
+				B1F5A3FF16118C21000E9A69 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F5A3E016118C20000E9A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F5A3F516118C20000E9A69 /* main.m in Sources */,
+				B1F5A3F916118C20000E9A69 /* TestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1F5A3F116118C20000E9A69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F5A3F216118C20000E9A69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1F5A40016118C21000E9A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1F5A40116118C21000E9A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1F5A40316118C21000E9A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HipmobChat/HipmobChat-Prefix.pch";
+				INFOPLIST_FILE = "HipmobChat/HipmobChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1F5A40416118C21000E9A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HipmobChat/HipmobChat-Prefix.pch";
+				INFOPLIST_FILE = "HipmobChat/HipmobChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F5A3DE16118C20000E9A69 /* Build configuration list for PBXProject "HipmobChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F5A40016118C21000E9A69 /* Debug */,
+				B1F5A40116118C21000E9A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F5A40216118C21000E9A69 /* Build configuration list for PBXNativeTarget "HipmobChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F5A40316118C21000E9A69 /* Debug */,
+				B1F5A40416118C21000E9A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1F5A3DB16118C20000E9A69 /* Project object */;
+}
