@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#include <hipmob/hipmob.h>
 
 @interface TestAppDelegate : UIResponder <UIApplicationDelegate>
 

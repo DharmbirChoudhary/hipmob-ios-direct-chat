@@ -22,6 +22,29 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    /**
+     * VERY IMPORTANT: replace this application identifier with one from your
+     * Hipmob account.
+     */
+    hipmob * chat = [[hipmob alloc] initWithAppID:@"2ea7d86854df4ca185af84e68ea72fe1" andTitle:@"Direct Chat"];
+    /*
+     * Use this on the first device.
+     */
+    /*
+    chat.localdeviceid = @"80E129AE-2263-41D9-A8C6-4EC4DC724105";
+    chat.username = @"Test User 1";
+    chat.peerdeviceid = @"C731850C-2182-4F60-9DF6-6713C92496F0";
+    */
+    /*
+     * Use this on the second device.
+     */
+    chat.peerdeviceid = @"80E129AE-2263-41D9-A8C6-4EC4DC724105";
+    chat.username = @"Test User 2";
+    chat.localdeviceid = @"C731850C-2182-4F60-9DF6-6713C92496F0";
+    
+    self.window.rootViewController = chat;
+    
     return YES;
 }
 
