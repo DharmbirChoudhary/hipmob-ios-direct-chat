@@ -13,6 +13,7 @@
 		B11C72F31611965E0001202F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B11C72ED1611965E0001202F /* Icon-Small@2x.png */; };
 		B11C72F41611965E0001202F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B11C72EE1611965E0001202F /* Icon.png */; };
 		B11C72F51611965E0001202F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B11C72EF1611965E0001202F /* Icon@2x.png */; };
+		B14D576416125AED00F282A8 /* hipmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14D576316125AED00F282A8 /* hipmob.framework */; };
 		B1F5A3E916118C20000E9A69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F5A3E816118C20000E9A69 /* UIKit.framework */; };
 		B1F5A3EB16118C20000E9A69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F5A3EA16118C20000E9A69 /* Foundation.framework */; };
 		B1F5A3ED16118C20000E9A69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F5A3EC16118C20000E9A69 /* CoreGraphics.framework */; };
@@ -41,7 +42,6 @@
 		B1FBEA3A16118E7F00E8BBEC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FBEA3916118E7F00E8BBEC /* CFNetwork.framework */; };
 		B1FBEA3C16118E9200E8BBEC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FBEA3B16118E9200E8BBEC /* Security.framework */; };
 		B1FBEA3E16118E9E00E8BBEC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FBEA3D16118E9E00E8BBEC /* libicucore.dylib */; };
-		B1FBEA5B1611946D00E8BBEC /* hipmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FBEA5A1611946D00E8BBEC /* hipmob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +51,7 @@
 		B11C72ED1611965E0001202F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Icons/Icon-Small@2x.png"; sourceTree = "<group>"; };
 		B11C72EE1611965E0001202F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Icons/Icon.png; sourceTree = "<group>"; };
 		B11C72EF1611965E0001202F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Icons/Icon@2x.png"; sourceTree = "<group>"; };
+		B14D576316125AED00F282A8 /* hipmob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = hipmob.framework; sourceTree = "<group>"; };
 		B1F5A3E416118C20000E9A69 /* Direct Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Direct Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F5A3E816118C20000E9A69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B1F5A3EA16118C20000E9A69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,7 +84,6 @@
 		B1FBEA3916118E7F00E8BBEC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B1FBEA3B16118E9200E8BBEC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B1FBEA3D16118E9E00E8BBEC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		B1FBEA5A1611946D00E8BBEC /* hipmob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = hipmob.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 				B1F5A3E916118C20000E9A69 /* UIKit.framework in Frameworks */,
 				B1F5A3EB16118C20000E9A69 /* Foundation.framework in Frameworks */,
 				B1F5A3ED16118C20000E9A69 /* CoreGraphics.framework in Frameworks */,
-				B1FBEA5B1611946D00E8BBEC /* hipmob.framework in Frameworks */,
+				B14D576416125AED00F282A8 /* hipmob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,13 +107,13 @@
 		B1F5A3D916118C20000E9A69 = {
 			isa = PBXGroup;
 			children = (
+				B14D576316125AED00F282A8 /* hipmob.framework */,
 				B11C72EA1611965E0001202F /* Icon-72.png */,
 				B11C72EB1611965E0001202F /* Icon-Small-50.png */,
 				B11C72EC1611965E0001202F /* Icon-Small.png */,
 				B11C72ED1611965E0001202F /* Icon-Small@2x.png */,
 				B11C72EE1611965E0001202F /* Icon.png */,
 				B11C72EF1611965E0001202F /* Icon@2x.png */,
-				B1FBEA5A1611946D00E8BBEC /* hipmob.framework */,
 				B1FBEA3D16118E9E00E8BBEC /* libicucore.dylib */,
 				B1FBEA3B16118E9200E8BBEC /* Security.framework */,
 				B1FBEA3916118E7F00E8BBEC /* CFNetwork.framework */,
